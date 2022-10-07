@@ -1,0 +1,39 @@
+Sorting Algortihms short notes:
+
+Comparision Sort:
+->Selection Sort
+->Bubble Sort
+->Insertion Sort
+->Quick Sort
+->Merge Sort
+
+Non-Comparision Sort:
+->Counting Sort
+->Radix Sort
+
+
+
+Slection Sort:
+Difficulty - Easy
+repetedly find the greatest element of the array and put it to the end of the array;
+Verdict - Least efficient, only used to teach or learn.
+
+Bubble Sort:
+Difficulty - Easy
+Repetedly Check an element and Check if the next elemnt is greater or lesser than the current element and swap them if they are improperly placed.
+Verdict - Least efficient, only used to teach or learn.
+
+Insertion Sort:
+Difficulty - Medium
+Keep checking from the first, then gradually insert the next element in the correct position in the sorted subarry.
+Verdict - Reasonablly efficient ( O(n) ). Used in real life. Great for arrays which are almost sorted.
+
+Quick Sort:
+Difficulty - Very Hard
+Pick a pivot(Usually first or last element of the array), then bring all the elemnst greater than the pivot to its right side and all the elemnts lesser than the pivot to its left. Then do the same for the left side of previous pivot and right side. This is usually done recursively.
+Verdict - Very efficient( O(log n) ). Used in major companies.
+
+Merge Sort:
+Difficulty - Hard
+Merge two arrays. First split all the elemnts each into an array, then merge them together, one by one.
+Verdict - Very efficient.
